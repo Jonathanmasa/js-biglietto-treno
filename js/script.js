@@ -36,10 +36,9 @@ if (eta < 18) {
 
 // selezione numero decimali
 finalPrice = finalPrice.toFixed(2);
-console.log("prezzo finale:", finalPrice)
 
 // Console finale
-console.log(`Prezzo totale: ${finalPrice}`);
+console.log("prezzo finale:", finalPrice)
 
 
     

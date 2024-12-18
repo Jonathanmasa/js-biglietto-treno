@@ -1,5 +1,5 @@
 // Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero. Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
-let chilometro = prompt("inserisci il numero di chilometri da percorrere");
+let chilometro = parseInt(prompt("inserisci il numero di chilometri da percorrere"));
 let eta = parseInt(prompt("inserisci l'età del passeggero"));
 
 console.log("chilometri:",chilometro,"età:",eta);
